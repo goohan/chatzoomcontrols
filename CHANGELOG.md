@@ -2,6 +2,10 @@
 
 All notable changes to this extension are documented in this file.
 
+## 0.0.2
+
+- Add a Marketplace icon consistent with the visual style of the publisher's other extensions.
+
 ## 0.0.1
 
 - Add commands to increase, decrease, and reset AI chat font sizes.

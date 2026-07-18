@@ -71,7 +71,7 @@ code --install-extension goohan.chatfontsizecontrols
 Download a `.vsix` file from the repository releases and run:
 
 ```powershell
-code --install-extension .\chatfontsizecontrols-0.0.1.vsix
+code --install-extension .\chatfontsizecontrols-<version>.vsix
 ```
 
 Then run **Developer: Reload Window** if VS Code asks you to reload.
@@ -81,8 +81,8 @@ Then run **Developer: Reload Window** if VS Code asks you to reload.
 The extension has no runtime dependencies or build step. Download or clone this repository, then copy its contents to a folder such as:
 
 ```text
-Windows: %USERPROFILE%\.vscode\extensions\goohan.chatfontsizecontrols-0.0.1
-macOS/Linux: ~/.vscode/extensions/goohan.chatfontsizecontrols-0.0.1
+Windows: %USERPROFILE%\.vscode\extensions\goohan.chatfontsizecontrols-<version>
+macOS/Linux: ~/.vscode/extensions/goohan.chatfontsizecontrols-<version>
 ```
 
 Make sure `package.json` and `extension.js` are directly inside that folder, then run **Developer: Reload Window**.

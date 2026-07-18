@@ -4,4 +4,5 @@
 test/**
 .gitignore
 eslint.config.js
+assets/icon.svg
 **/*.vsix
