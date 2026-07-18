@@ -1,5 +1,5 @@
 node_modules/
 .vscode-test/
 *.vsix
-assets/icon-candidate*.png
-assets/zoom.png
+assets/*candidate*.png
+assets/zoom*.png

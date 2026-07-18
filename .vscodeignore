@@ -5,6 +5,6 @@ test/**
 .gitignore
 eslint.config.js
 assets/icon.svg
-assets/icon-candidate*.png
-assets/zoom.png
+assets/*candidate*.png
+assets/zoom*.png
 **/*.vsix
