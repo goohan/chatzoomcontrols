@@ -2,6 +2,10 @@
 
 All notable changes to this extension are documented in this file.
 
+## 0.0.9
+
+- Simplify the README by removing the Marketplace publishing instructions.
+
 ## 0.0.8
 
 - Refresh the animated demonstration shown on the Marketplace profile.

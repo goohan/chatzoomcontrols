@@ -106,31 +106,6 @@ npm run package
 
 Press `F5` in VS Code to launch an Extension Development Host. Use the three **Chat Zoom** commands there to test changes.
 
-## Publishing to the Marketplace
-
-1. Confirm that the `publisher` in `package.json` matches your Visual Studio Marketplace publisher.
-2. Create a Marketplace Personal Access Token with the required Marketplace publishing scope.
-3. Authenticate locally without committing or sharing the token:
-
-   ```powershell
-   npx vsce login goohan
-   ```
-
-4. Validate and package:
-
-   ```powershell
-   npm run check
-   npm run package
-   ```
-
-5. Publish the current version:
-
-   ```powershell
-   npm run publish
-   ```
-
-For later releases, update `CHANGELOG.md`, increment the version in `package.json`, run the checks, and publish again. Never store the Marketplace token in this repository.
-
 ## How it works
 
 Each command reads the current effective `chat.fontSize`, calculates the next clamped value, and updates both:
